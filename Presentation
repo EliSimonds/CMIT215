@@ -1,0 +1,54 @@
+<html>
+<center><h1 style=" font-weight: bold; font-size: 120%; "> Installation and configuration of the Sysinternals Process Explorer utility and an explanation of what are the primary benefits when compared to Task Manager </h1></center>
+<center><p> CMIT 215 01 Microsoft Client Operating Systems Presentation Project. </p></center>
+<center><p> Eli Simonds </p></center>
+<center><p> Updated 6 March 2016</p></center>
+<br>
+<p style=" font-weight: bold; "> Process Explorer, what is it? </p>
+<p>Process Explorer is a Freeware replacement to the Task Management tool for Microsoft windows. This tool was created by Sysinternals a Microsoft Subsidiary in 2001. And is now on version 16.1, which was updated on January 4 2016.</p>
+<br>
+<p style=" font-weight: bold; "> System requirements? </p>
+<p>Windows XP, Vista and later or Windows server 2008 or later.</p>
+<br>
+<p style=" font-weight: bold; "> The installation processes. </p>
+<p>The Process Explorer files can easily be obtained for free from many online sources. For the sake of this project I will be using the fallowing source: https://technet.microsoft.com/en-us/sysinternals/processexplorer</p>
+<p>Upon opening procexp.exe, the main Process Explorer window will open. The entire program runs from the 2.5mb executable file, so no installation is required and the program can be put in to immediate use.</p>
+<br>
+<img src="https://raw.githubusercontent.com/EliSimonds/CMIT215/master/main.png">
+<br>
+<p style=" font-weight: bold; "> What's it offer above the standard Task Manager? </p>
+<p>+ Running Process Explorer offers many benefits, beyond what the standard task manager can provide. A first look at Process Explorer main window will make many improved functions apparent.</p>
+<p>+ The color coding differentiates between user and service processes and can be used as notifications of new and deleted processes. These colors can be altered under the options > Configure Colors.</p>
+<br>
+<img src="https://raw.githubusercontent.com/EliSimonds/CMIT215/master/color.png">
+<br>
+<p>+ Detailed view and sorting of running processes in the main display can be altered by adding data columns depending on the needed functions. Process Explorer offers a wide variety of options for this including CPU usage by thread, memory usage, or file location. This is accessed by right clicking the columns titles.</p>
+<br>
+<img src="https://raw.githubusercontent.com/EliSimonds/CMIT215/master/columns.png">
+<br>
+<p>+ By default processes are sorted hierarchical. This allows a view of process trees and interaction with sub processes.</p>
+<p>+ Mousing over a process displays a view of the command line, path location and ddl for quick browsing.</p>
+<p>+ Detailed process information and properties can be accessed by double clicking any process row. Available information on individual processes and it's resource usage includes from standard file properties, CPU, virtual/physical Memory, GPU, TCP/IP, and local group policy's.</p>
+<br>
+<img src="https://raw.githubusercontent.com/EliSimonds/CMIT215/master/process.png">
+<br>
+<p>+ A variety of process priority options are available by right clicking a process row. Priority settings range from real time to background and idle. As well as the options to restart or suspend an active process.</p>
+<p>+ Process Explorer allows users to directly search processes .exe files online for more information about their purpose, or to directly send them to VirusTotal.com to be live scanned.</p>
+<p>+ DLL/Handle query options are available. Allowing users to see what the process is interacting with on the system and display their locations. A secondary window under the processes window can be toggled under options and customized to view DLL's/Handle's attributed to a selected process row.</p>
+<br>
+<img src="https://raw.githubusercontent.com/EliSimonds/CMIT215/master/handles.png">
+<br>
+<p>+ Process Explorer can replace Task Manager as default for the ctrl + alt + del/ctrl + shift + esc commands. Not recommended as it will not be running as administer and may limit usage when interacting with higher level processes.</p>
+<br>
+<p style=" font-weight: bold; "> When would you use it? </p>
+<p>+ If you needed to Handle leaks of system resources by locating DLL/Handles.</p>
+<p>+ If you wanted to manage the usage of processes across multiple users and implement group policy's.</p>
+<p>+ As your default Task Manager</p>
+<br>
+<p style=" font-weight: bold; "> Bibliography </p>
+<p>11 January 2016 "Process Explorer." Wikipedia. Wikipedia.org.</p>
+<a href=" https://en.wikipedia.org/wiki/Process_Explorer" >  https://en.wikipedia.org/wiki/Process_Explorer </a>
+<p>Michael Simmons, "5 Reasons Why You Should Replace Task Manager with Sysinternals Process Explorer" Petri IT Knowledgebase. petri.com. 1 October 2012.</p>
+<a href="https://www.petri.com/5-reasons-replace-task-manager-with-sysinternals-process-explorer" > https://www.petri.com/5-reasons-replace-task-manager-with-sysinternals-process-explorer </a>
+<p>Mark Russinovich, "Process Explorer v16.12" Microsoft. technet.microsoft.com. 2 February 2016.</p>
+<a href="https://technet.microsoft.com/en-us/sysinternals/processexplorer" > https://technet.microsoft.com/en-us/sysinternals/processexplorer </a>
